@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigation a {
+
+    color: white;
+}
+
+.navigation a :hover {
+    color: white;
+}
+
+.navigation img {
+    width: 150px;
+    height: 60px;
+}
+
+
+.upHeader {
+    width: 1300px;
+
+}
+
+.gap {
+    gap: 25px;
+}
+
+
+#coffeeHeaven {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/home-1-slider-image-2.jpg);
+    width: 100%;
+    height: 565px;
+    background-size: cover;
+}
+
+.coffee {
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.allProducts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+}
+
+.allProducts p {
+    width: 82%;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.allProducts h1 {
+    font-size: 68px;
+    font-family: Marcellus;
+    line-height: 78px;
+    color: white;
+    width: 83%;
+}
+
+.cfLogo {
+    width: 130px;
+}
+
+.btnn {
+    color: white;
+    background-color: transparent;
+    border: white 1px solid;
+    border-radius: 0px;
+    width: 200px;
+    height: 62px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.btnn:hover {
+    background-color: #BE9C79;
+    cursor: pointer;
+    border: none;
+}
+
+.second {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #262626;
+}
+
+.second h1 {
+    font-family: Marcellus;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400px;
+}
+
+.second p {
+    width: 52%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #535353;
+    text-align: center;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+}
+
+.up {
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Marcellus;
+    color: #262626;
+}
+
+.up:hover {
+    color: #b99876;
+}
+
+.upTwo {
+    color: #535353;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 200px;
+}
+
+#three {
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    width: 100%;
+    height: 855px;
+    background-size: cover;
+}
+
+.three {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #262626;
+}
+
+.three h1 {
+    font-family: Marcellus;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400px;
+}
+
+.three p {
+    width: 52%;
+    font-size: 18px;
+    line-height: 28px;
+    color: #535353;
+    text-align: center;
+}
+
+.all img {
+    width: 353px;
+    height: 285px;
+}
+
+.main {
+    font-family: Marcellus;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #262626;
+}
+
+.main:hover {
+    color: #be9c79;
+    cursor: pointer;
+}
+
+.two {
+    color: #535353;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    width: 350px;
+}
+
+.read {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+}
+
+.read:hover {
+    color: #be9c79;
+    cursor: pointer;
+}
+
+#four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+}
+
+.coffeeLogo {
+    width: 250px;
+    height: 227px;
+}
+
+
+#sectionfive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 335px;
+    color: white;
+    text-align: center;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+.alls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h3 {
+    color: #b99876;
+    font-size: 55px;
+    line-height: 50px;
+    font-family: Marcellus;
+    font-weight: 300;
+}
+
+.wrt {
+    font-family: Marcellus;
+    font-size: 20px;
+    font-weight: 30px;
+    color: #262626;
+}
+
+.lorem {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #656565;
+}
+
+#onlineCoffee {
+    background-size: cover;
+    width: 100%;
+    height: 855px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.allTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 238px;
+    height: 238px;
+}
+
+.about {
+    font-size: 20px;
+    line-height: 30px;
+    color: #262626;
+    font-weight: 400;
+    font-family: Marcellus;
+    cursor: pointer;
+}
+
+.about:hover {
+    color: #BE9C79;
+
+}
+
+.price {
+    font-size: 18px;
+    line-height: 18px;
+    color: #777777;
+    font-weight: 300;
+}
+
+#ourSweet {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.row {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.repeat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 270px;
+}
+
+.repeat h1 {
+    font-family: Marcellus;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400px;
+    color: #262626;
+}
+
+.loremIpsum {
+    width: 52%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 28px;
+    color: #535353;
+    text-align: center;
+}
+
+#main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#perfectCup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mainly img {
+    width: 323px;
+    display: flex;
+    justify-content: center;
+}
+
+.mainly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.first {
+    display: none;
+    width: 323px;
+
+
+}
+
+.mainly:hover .first {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    width: 323px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.mainly2:hover .twoo {
+    display: block;
+    flex-direction: column;
+    position: absolute;
+    width: 323px;
+    height: 312px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.mainly2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.twoo {
+    display: none;
+    width: 323px;
+
+}
+
+.cup {
+    color: white;
+    font-family: Marcellus;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.filter {
+    color: white;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#main2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bestAmoras {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+}
+
+.mainly2 img {
+    width: 323px;
+    height: 311;
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    align-items: center;
+    display: flex;
+    height: 150px;
+}
+
+.img img {
+    width: 224px;
+    height: 91px;
+}
+
+#small {
+    width: 1349px;
+    height: 209px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+}
+
+.sml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+
+.h5 {
+    margin-top: 15px;
+}
+
+.h5 h5 {
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.contactUS {
+    background-color: #be9c79;
+    width: 164px;
+    height: 54px;
+    border: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    border-radius: 0px;
+    color: white;
+    cursor: pointer;
+}
+
+.contactUS:hover {
+    background-color: #262626;
+}
+
+#end {
+    width: 1349px;
+    height: 709px;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+}
+
+.endFirst {
+    height: 370px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.endFirst img {
+    cursor: pointer;
+}
+
+.endFirst p {
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+
+.stores {
+    color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.losAngeles {
+    width: 300px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.storess {
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.email {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email h5 {
+    color: white;
+    font-size: 20px;
+    font-family: Marcellus;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.btnInp {
+    border: 1px solid white;
+}
+
+.inp {
+    background-color: transparent;
+    width: 258px;
+    height: 60px;
+    border: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.inp::placeholder {
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.buttonEnd {
+    width: 63px;
+    height: 62px;
+    font-size: 19px;
+    border: none;
+}
+
+.grey {
+    background-color: #121212;
+    width: 100%;
+    height: 166px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #121212;
+    color: white;
+}
+
+.qode {
+    width: 300px;
+}
+
+.category {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+.category a {
+    text-decoration: none;
+    color: white;
+}
+
+.category a:hover {
+    color: #be9c79;
+}
+
+.category i:hover {
+    cursor: pointer;
+    color: #be9c79;
+}
